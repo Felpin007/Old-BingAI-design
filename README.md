@@ -1,6 +1,3 @@
-# Old-BingAI-design
-Old Bing AI design in React and Vite, gemini simple chatbot included
-=======
 # Old-Bing-AI-design
 Old Bing AI design in React and Vite, Gemini simple chatbot included
 
