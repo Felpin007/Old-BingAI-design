@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="119.04425mm" height="119.04425mm" viewBox="0 0 119.04425 119.04425" version="1.1" id="svg5" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs2">
+    <linearGradient id="b" x1="22" x2="22" y1="2" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9F9F9" id="stop848"/>
+      <stop offset="1" stop-color="#EDF0F9" id="stop850"/>
+    </linearGradient>
+    <linearGradient id="c" x1="4.1370001" x2="44.563999" y1="44.75" y2="38.792" gradientUnits="userSpaceOnUse">
+      <stop offset="0.108" stop-color="#1D6CF2" id="stop853"/>
+      <stop offset="0.871" stop-color="#1B4AEF" id="stop855"/>
+    </linearGradient>
+    <linearGradient id="i" x1="21.172001" x2="30.459999" y1="18.646" y2="23.99" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37BDFF" id="stop858"/>
+      <stop offset="0.183" stop-color="#33BFFD" id="stop860"/>
+      <stop offset="0.358" stop-color="#28C5F5" id="stop862"/>
+      <stop offset="0.528" stop-color="#15D0E9" id="stop864"/>
+      <stop offset="0.547" stop-color="#12D1E7" id="stop866"/>
+      <stop offset="0.59" stop-color="#1CD2E5" id="stop868"/>
+      <stop offset="0.768" stop-color="#42D8DC" id="stop870"/>
+      <stop offset="0.911" stop-color="#59DBD6" id="stop872"/>
+      <stop offset="1" stop-color="#62DCD4" id="stop874"/>
+    </linearGradient>
+    <linearGradient id="j" x1="15.739" x2="29.233" y1="26.702999" y2="26.702999" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39D2FF" id="stop877"/>
+      <stop offset="0.15" stop-color="#38CEFE" id="stop879"/>
+      <stop offset="0.293" stop-color="#35C3FA" id="stop881"/>
+      <stop offset="0.433" stop-color="#2FB0F3" id="stop883"/>
+      <stop offset="0.547" stop-color="#299AEB" id="stop885"/>
+      <stop offset="0.583" stop-color="#2692EC" id="stop887"/>
+      <stop offset="0.763" stop-color="#1A6CF1" id="stop889"/>
+      <stop offset="0.909" stop-color="#1355F4" id="stop891"/>
+      <stop offset="1" stop-color="#104CF5" id="stop893"/>
+    </linearGradient>
+    <linearGradient id="k" x1="18.23" x2="18.23" y1="27.893999" y2="9.79" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1, 0, 0, 0.677538, -0.057659, 9.10789)">
+      <stop stop-color="#1B48EF" id="stop896"/>
+      <stop offset="0.122" stop-color="#1C51F0" id="stop898"/>
+      <stop offset="0.321" stop-color="#1E69F5" id="stop900"/>
+      <stop offset="0.568" stop-color="#2190FB" id="stop902"/>
+      <stop offset="1" stop-color="#26B8F4" id="stop904"/>
+    </linearGradient>
+    <radialGradient id="d" cx="0" cy="0" r="1" gradientTransform="matrix(30.857161,7.714151,-7.714151,30.857161,13.321223,34.142405)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B31A3" id="stop957"/>
+      <stop offset="1" stop-color="#39A0ED" id="stop959"/>
+    </radialGradient>
+    <radialGradient id="e" cx="0" cy="0" r="1" gradientTransform="matrix(-15.749951,-12.857252,12.857252,-15.749951,16.213659,14.85757)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFF3" stop-opacity=".77" id="stop962"/>
+      <stop offset="0.423" stop-color="#00FFF3" stop-opacity=".72" id="stop964"/>
+      <stop offset="1" stop-color="#5BDCD6" stop-opacity="0" id="stop966"/>
+    </radialGradient>
+    <clipPath id="f">
+      <path fill="#ffffff" d="M 11.2,9.2 H 32.8 V 30.8 H 11.2 Z" id="path969"/>
+    </clipPath>
+    <clipPath id="h">
+      <path fill="#ffffff" d="M 15.7,9.2 H 30.1 V 30.8 H 15.7 Z" id="path972"/>
+    </clipPath>
+    <filter id="a" width="43.200001" height="43.200001" x="0.40000001" y="0.2" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" id="feFlood975"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" id="feColorMatrix977"/>
+      <feOffset id="feOffset979"/>
+      <feGaussianBlur stdDeviation=".9" id="feGaussianBlur981"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" id="feColorMatrix983"/>
+      <feBlend in2="BackgroundImageFix" result="effect1_dropShadow_1360_20280" id="feBlend985" mode="normal"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" id="feColorMatrix987"/>
+      <feOffset dy="1.8" id="feOffset989"/>
+      <feGaussianBlur stdDeviation="1.8" id="feGaussianBlur991"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0" id="feColorMatrix993"/>
+      <feBlend in2="effect1_dropShadow_1360_20280" result="effect2_dropShadow_1360_20280" id="feBlend995" mode="normal"/>
+      <feBlend in="SourceGraphic" in2="effect2_dropShadow_1360_20280" result="shape" id="feBlend997" mode="normal"/>
+    </filter>
+    <filter id="g" width="21.6" height="24.299999" x="11.2" y="9.1999998" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" id="feFlood1000"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" id="feBlend1002" mode="normal"/>
+      <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" id="feColorMatrix1004"/>
+      <feOffset dy="2.7" id="feOffset1006"/>
+      <feGaussianBlur stdDeviation="4.388" id="feGaussianBlur1008"/>
+      <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic" id="feComposite1010" k1="0" k4="0"/>
+      <feColorMatrix values="0 0 0 0 0.81875 0 0 0 0 0.824081 0 0 0 0 1 0 0 0 0.37 0" id="feColorMatrix1012"/>
+      <feBlend in2="shape" result="effect1_innerShadow_1360_20280" id="feBlend1014" mode="normal"/>
+    </filter>
+    <radialGradient id="gradient-1" cx="0" cy="0" r="1" gradientTransform="matrix(-15.749951, -12.857252, 12.857252, -15.749951, 6.837085, 0.535528)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00FFF3" stop-opacity=".77" id="stop-1"/>
+      <stop offset="0.423" stop-color="#00FFF3" stop-opacity=".72" id="stop-2"/>
+      <stop offset="1" stop-color="#5BDCD6" stop-opacity="0" id="stop-3"/>
+    </radialGradient>
+  </defs>
+  <g id="layer1" transform="translate(-37.137136,-25.697955)">
+    <g style="fill:none" id="g1126" transform="matrix(2.755654, 0, 0, 2.755654, 34.44603, 27.688981)">
+      <g filter="url(#a)" id="g832">
+        <path fill="url(#b)" d="m 22,2 c 9.941,0 18,8.058 18,17.997 0,9.94 -8.059,17.998 -18,17.998 -2.001,0 -3.956,-0.328 -5.803,-0.956 C 14.5,36.461 12.679,36.19 10.945,36.642 L 5.918,37.95 A 1.53,1.53 0 0 1 4.051,36.084 l 1.307,-5.018 c 0.452,-1.737 0.18,-3.56 -0.4,-5.259 A 17.98,17.98 0 0 1 4,19.997 C 4,10.057 12.059,2 22,2 Z" id="path824" style="fill:url(#b)"/>
+        <path stroke="url(#c)" stroke-width="1.5" d="M 5.729,37.224 A 0.78,0.78 0 0 1 4.778,36.273 L 6.084,31.255 C 6.587,29.323 6.274,27.34 5.669,25.565 A 17.23,17.23 0 0 1 4.75,19.997 C 4.75,10.472 12.473,2.75 22,2.75 c 9.527,0 17.25,7.722 17.25,17.247 0,9.526 -7.723,17.248 -17.25,17.248 -1.919,0 -3.792,-0.314 -5.561,-0.916 -1.774,-0.604 -3.754,-0.915 -5.683,-0.413 z" id="path826" style="stroke:url(#c)"/>
+        <path stroke="url(#d)" stroke-opacity="0.6" stroke-width="1.5" d="M 5.729,37.224 A 0.78,0.78 0 0 1 4.778,36.273 L 6.084,31.255 C 6.587,29.323 6.274,27.34 5.669,25.565 A 17.23,17.23 0 0 1 4.75,19.997 C 4.75,10.472 12.473,2.75 22,2.75 c 9.527,0 17.25,7.722 17.25,17.247 0,9.526 -7.723,17.248 -17.25,17.248 -1.919,0 -3.792,-0.314 -5.561,-0.916 -1.774,-0.604 -3.754,-0.915 -5.683,-0.413 z" id="path828" style="stroke:url(#d)"/>
+        <path stroke="url(#e)" stroke-opacity="0.8" stroke-width="1.5" d="M 5.729 37.224 C 6.26 36.652 4.501 36.983 4.778 36.273 L 6.084 31.255 C 6.587 29.323 6.274 27.34 5.669 25.565 C 5.059 23.772 4.748 21.891 4.75 19.997 C 4.75 10.472 12.473 2.75 22 2.75 C 31.527 2.75 39.25 10.472 39.25 19.997 C 39.25 29.523 31.527 37.245 22 37.245 C 20.081 37.245 18.208 36.931 16.439 36.329 C 14.665 35.725 12.685 35.414 10.756 35.916 L 5.729 37.224 Z" id="path830" style="stroke:url(#e)"/>
+        <path stroke="url(#gradient-1)" stroke-opacity="0.8" stroke-width="1.5" d="M -3.648 22.902 C -4.224 23.052 -4.748 22.527 -4.599 21.951 L -3.293 16.933 C -2.79 15.001 -3.103 13.018 -3.708 11.243 C -4.318 9.45 -4.628 7.569 -4.627 5.675 C -4.627 -3.85 3.096 -11.572 12.623 -11.572 C 22.15 -11.572 29.873 -3.85 29.873 5.675 C 29.873 15.201 22.15 22.923 12.623 22.923 C 10.704 22.923 8.831 22.609 7.062 22.007 C 5.288 21.403 3.308 21.092 1.379 21.594 L -3.648 22.902 Z" id="path-1" style="stroke: url(&quot;#gradient-1&quot;);"/>
+      </g>
+      <g clip-path="url(#f)" filter="url(#g)" id="g846" transform="matrix(1, 0, 0, 1, -0.634233, -1.845043)">
+        <g clip-path="url(#h)" id="g844">
+          <path fill="url(#i)" d="M 30.1 23.08 C 30.103 24.527 29.557 25.921 28.571 26.98 C 28.832 26.69 29.024 26.345 29.133 25.971 C 29.143 25.934 29.153 25.897 29.161 25.859 C 29.162 25.855 29.164 25.85 29.165 25.846 C 29.175 25.809 29.181 25.772 29.188 25.735 C 29.195 25.696 29.203 25.657 29.208 25.619 L 29.208 25.616 C 29.226 25.495 29.234 25.374 29.234 25.252 C 29.236 24.552 28.952 23.881 28.448 23.396 C 28.13 23.086 27.736 22.864 27.305 22.753 L 27.299 22.752 L 27.253 22.736 L 26.588 22.506 L 24.848 21.906 C 24.842 21.904 24.835 21.904 24.831 21.902 L 24.722 21.862 C 24.373 21.724 24.083 21.468 23.902 21.139 L 23.266 19.513 L 22.539 17.651 L 22.399 17.292 L 22.363 17.219 C 22.322 17.119 22.302 17.013 22.302 16.905 C 22.302 16.877 22.302 16.848 22.305 16.822 C 22.362 16.28 27.595 10.815 28.098 11.024 L 26.67 17.824 L 27.31 18.152 C 27.648 18.354 27.964 18.592 28.252 18.86 C 29.432 19.945 30.103 21.477 30.099 23.08 L 30.1 23.08 Z" id="path834" style="fill:url(#i)"/>
+          <path fill="url(#j)" d="M 29.233 25.252 C 29.233 25.418 29.217 25.578 29.188 25.735 C 29.158 25.889 29.114 26.04 29.058 26.187 C 29.044 26.224 29.028 26.26 29.013 26.297 C 28.902 26.546 28.752 26.777 28.57 26.98 C 28.098 27.505 26.494 28.44 25.902 28.82 L 24.589 29.625 C 23.628 30.219 22.719 30.64 21.572 30.669 L 21.412 30.672 C 19.45 30.671 14.917 33.468 13.872 31.807 C 13.415 31.085 15.836 26.464 15.739 25.615 C 16.039 27.319 17.923 28.226 19.442 27.398 L 19.571 27.32 L 20.093 27.01 L 20.759 26.616 L 20.759 26.597 L 20.844 26.546 L 26.796 23.008 L 27.254 22.736 L 27.299 22.751 L 27.305 22.753 C 27.858 22.895 28.347 23.218 28.694 23.67 C 29.045 24.123 29.235 24.679 29.234 25.252 L 29.233 25.252 Z" id="path836" style="fill:url(#j)"/>
+          <path fill="url(#k)" d="M 20.702 18.218 L 21.968 25.988 L 20.035 27.409 L 19.512 27.618 L 19.383 27.671 L 19.375 27.674 C 17.674 28.299 15.609 27.451 15.641 26.141 L 15.641 16.099 C 15.642 15.656 16.35 15.38 16.916 15.602 C 16.931 15.608 16.946 15.614 16.961 15.621 L 19.551 16.771 C 19.564 16.779 19.58 16.786 19.596 16.793 C 20.29 17.115 20.704 17.648 20.702 18.218 Z" id="path838" style="fill: url(&quot;#k&quot;);"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

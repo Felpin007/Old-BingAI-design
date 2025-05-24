@@ -1,0 +1,238 @@
+:root {
+    --theme-color: #8e3f83;
+    --theme-color-hover: #7a3670;
+    --theme-color-light: #f3eaf2;
+    --theme-background: linear-gradient(264deg, rgba(219, 224, 252, 1) 0%, rgba(240, 237, 247, 1) 50%, rgba(239, 236, 248, 1) 100%);
+    --input-container-shadow-color: rgba(0, 0, 0, 0.08);
+    --input-container-background: linear-gradient(264deg, rgba(219, 224, 252, 1) 0%, rgba(240, 237, 247, 1) 50%, rgba(239, 236, 248, 1) 100%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: var(--theme-background);
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+}
+
+.input-area-container {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.input-area {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1100px;
+    height: 100px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.new-topic-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 90px;
+    padding: 0px 20px;
+    top: 5px;
+    height:49px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    white-space: nowrap;
+}
+
+.new-topic-button svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.new-topic-button:hover {
+    background-color: var(--theme-color-hover); 
+}
+
+.input-wrapper {
+    flex-grow: 1;
+    position: relative;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 40px;
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    min-height: 50px;
+    transition: border-radius 0.3s ease, min-height 0.3s ease;
+}
+
+.input-wrapper:hover,
+.input-wrapper:focus-within {
+    border-radius: 10px;
+    min-height: 95px;
+}
+
+.main-input {
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+    background-color: transparent;
+    resize: none;
+    line-height: 1.4;
+    color: #333;
+    padding-right: 80px;
+    top: 15px;
+}
+.main-input::placeholder {
+    color: #888;
+}
+
+
+.input-icons-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease 0.1s, visibility 0.3s ease 0.1s;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    right: 95px;
+    pointer-events: none;
+}
+
+.input-icon-left svg {
+    width: 20px;
+    height: 20px;
+    fill: #777;
+    cursor: pointer;
+}
+.input-icon-left svg:hover {
+    fill: #333;
+}
+.input-icon-left{
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+}
+
+.input-controls-right {
+    position: absolute;
+    right: -85px;
+    bottom: -7px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.input-controls-right svg {
+    width: 22px;
+    height: 22px;
+    fill: #777;
+    cursor: pointer;
+}
+.input-controls-right svg:hover {
+    fill: #333;
+}
+
+.input-wrapper:hover .input-icons-bottom,
+.input-wrapper:focus-within .input-icons-bottom,
+.input-wrapper:hover .input-controls-right,
+.input-wrapper:focus-within .input-controls-right {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.char-counter {
+    font-size: 12px;
+    color: #888;
+    white-space: nowrap;
+    bottom: 7px;
+    position: absolute;
+    right: 30px;
+}
+.mic-send-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+.send-button {
+     background: none;
+     border: none;
+     padding: 0;
+     line-height: 1;
+}
+
+.send-button svg {
+     fill: #0078d4;
+     width: 24px;
+     height: 24px;
+     cursor: pointer;
+}
+.send-button svg:hover {
+     fill: #005a9e;
+}
+.send-button:disabled svg {
+    fill: #ccc;
+    cursor: default;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ body.theme-balanced {
+    --theme-color: #1a4ae2;
+    --theme-color-hover: #153dbb;
+    --theme-color-light: #e8eefd;
+    --theme-background: linear-gradient(to top, #eeecfa, #edf1f9);
+    --input-container-shadow-color: rgba(0, 0, 0, 0.05);
+    --input-container-background: #eeecfa;
+}
+
+body.theme-precise {
+    --theme-color: #046484;
+    --theme-color-hover: #03536d;
+    --theme-color-light: #e6f2f6;
+    --theme-background: linear-gradient(4deg, rgba(228, 244, 252, 1) 0%, rgba(240, 236, 252, 1) 100%);
+    --input-container-background: #e8f4fc;
+    --input-container-shadow-color: rgba(0, 0, 0, 0.05);
+}
+
+.preview-disclaimer a {
+    color: var(--theme-color);
+    text-decoration: none;
+}
+
+.preview-disclaimer a:hover {
+    text-decoration: underline;
+}
