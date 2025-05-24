@@ -179,7 +179,23 @@ function App() {
 
     try {
       const genAI = new GoogleGenAI({ apiKey: apiKey });
-      const model = selectedModel;      if (!chatSessionRef.current) {
+      const model = selectedModel;
+      let temperature;
+      switch (activeStyle) {
+        case 'creative':
+          temperature = 0.9;
+          break;
+        case 'balanced':
+          temperature = 0.5;
+          break;
+        case 'precise':
+          temperature = 0.1;
+          break;
+        default:
+          temperature = 0.5;
+      }
+
+      if (!chatSessionRef.current) {
         const history = messages
           .filter(msg => msg.sender === 'user' || msg.sender === 'ai')
           .map(msg => ({
@@ -194,7 +210,11 @@ function App() {
       }
       const stream = await chatSessionRef.current.sendMessageStream({
         message: currentInput,
-      });      let accumulatedText = '';
+        generationConfig: {
+          temperature: temperature,
+        },
+      });
+      let accumulatedText = '';
 
       for await (const chunk of stream) {
         const chunkText = chunk.text;
