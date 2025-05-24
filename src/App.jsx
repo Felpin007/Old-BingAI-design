@@ -276,13 +276,13 @@ function App() {
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-search" viewBox="0 0 16 16">
               <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
             </svg>
-            Search
+            <span className="mobile-hidden-text">Search</span>
           </a>
           <a href="#" className="active">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chat-dots-fill" viewBox="0 0 16 16">
               <path d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM5 8a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm4 0a1 1 0 1 0-2 0 1 1 0 0 0 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
             </svg>
-            Chat
+            <span className="mobile-hidden-text">Chat</span>
           </a>
         </nav>
         <div className="header-controls">
@@ -323,14 +323,14 @@ function App() {
               </div>
               <p className="card-prompt">Write the outline of a book report to help me get started</p>
             </div>
-            <div className="suggestion-card" data-category="Code">
+            <div className="suggestion-card mobile-hidden-card" data-category="Code">
               <div className="card-header">
                 <img src={codeIconUrl} alt="Code icon" className="card-icon" />
                 <span className="card-category">Code</span>
               </div>
               <p className="card-prompt">Write a Python script to perform Binary search</p>
             </div>
-            <div className="suggestion-card" data-category="Travel">
+            <div className="suggestion-card mobile-hidden-card" data-category="Travel">
               <div className="card-header">
                 <img src={travelIconUrl} alt="Travel icon" className="card-icon" />
                 <span className="card-category">Travel</span>
@@ -339,22 +339,21 @@ function App() {
             </div>
           </div>
           <div className="suggestions-grid suggestions-grid-row2">
-            <div className="suggestion-card" data-category="Create">
+            <div className="suggestion-card mobile-hidden-card" data-category="Create">
               <div className="card-header">
                 <img src={createIconUrl} alt="Create icon" className="card-icon" />
                 <span className="card-category">Create</span>
               </div>
               <p className="card-prompt">Write a short essay that analyzes the merits of universal basic income</p>
             </div>
-            <div className="suggestion-card" data-category="Design">
+            <div className="suggestion-card mobile-hidden-card" data-category="Design">
               <div className="card-header">
                 <img src={chatIconUrl} alt="Design icon" className="card-icon" />
                 <span className="card-category">Design</span>
               </div>
               <p className="card-prompt">Create a renaissance-era painting of a farmhouse at dawn</p>
             </div>
-          {/* Add a 7th card to fill the 3-column layout of row 2 */}
-          <div className="suggestion-card" data-category="Summarize">
+          <div className="suggestion-card mobile-hidden-card" data-category="Summarize">
             <div className="card-header">
                <img src={shoppingIconUrl} alt="Summarize icon" className="card-icon" />
               <span className="card-category">Summarize</span>
@@ -433,7 +432,7 @@ function App() {
               }}
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="bi bi-plus-lg" viewBox="0 0 16 16"> <path fillRule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/> </svg>
-              New topic
+              <span className="mobile-hidden-text">New topic</span>
             </button>
           <div className="input-area">
 
@@ -450,17 +449,9 @@ function App() {
                 disabled={!apiKey || isLoading}
               />
               <div className="input-icons-bottom">
-                <div className="input-icon-left">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-image" viewBox="0 0 16 16">
-                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-                    <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"/>
-                  </svg>
-                </div>
                 <div className="input-controls-right">
                   <span className="char-counter" id="char-counter">{currentLength}/{maxChars}</span>
-                  {/* Wrap Mic and Send button for stacking */}
                   <div className="mic-send-stack">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" className="bi bi-mic-fill" viewBox="0 0 16 16"> <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"/> <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/> </svg>
                     <button
                       className="send-button"
                       onClick={handleSendMessage}

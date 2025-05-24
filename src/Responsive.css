@@ -1,0 +1,295 @@
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+        height: 50px;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-nav {
+        margin-left: auto;
+        width: auto;
+        justify-content: flex-start;
+        margin-top: 0;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .header-nav a {
+        padding: 8px 10px;
+        margin: 0 3px;
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .header-nav a .mobile-hidden-text {
+        display: none;
+    }
+
+    .header-nav a svg {
+        margin-right: 0;
+    }
+
+    .header-controls {
+        margin-left: 10px;
+        width: auto;
+        justify-content: flex-end;
+        margin-top: 0;
+    }
+
+    .main-content {
+        padding: 20px 15px 0px 15px;
+    }
+
+    .suggestions-grid-container {
+        padding: 0 10px;
+    }
+
+    .suggestions-grid-row1,
+    .suggestions-grid-row2 {
+        grid-template-columns: 1fr;
+    }
+
+    .suggestion-card {
+        padding: 12px;
+    }
+
+    .suggestion-card.mobile-hidden-card {
+        display: none;
+    }
+
+    .card-category {
+        font-size: 14px;
+    }
+
+    .card-prompt {
+        font-size: 13px;
+    }
+
+    .preview-disclaimer {
+        margin-bottom: 20px;
+        padding: 0 15px;
+    }
+
+    .chat-messages {
+        padding: 0 15px;
+    }
+
+    .message {
+        max-width: 95%;
+    }
+
+    .message.ai {
+        max-width: 85%;
+    }
+
+    .message.ai .ai-message-content table {
+        min-width: unset;
+    }
+
+    .style-selector {
+        margin-bottom: 40px;
+    }
+
+    .style-buttons {
+        flex-direction: row;
+        padding: 5px;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .style-button {
+        border-left: 1px solid #e0e0e0;
+        border-bottom: none;
+        border-radius: 5px;
+        padding: 8px 15px;
+        width: auto;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .style-button:first-child {
+        border-left: none;
+    }
+
+    .sidebar {
+        transition: none !important;
+    }
+
+    .sidebar.open {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background-color: white;
+        z-index: 999;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+    }
+
+    .input-area-container {
+        padding: 10px 15px;
+    }
+
+    .new-topic-button .mobile-hidden-text {
+        display: none;
+    }
+
+    .input-wrapper {
+        height: auto !important;
+        transition: none !important;
+        max-height: unset !important;
+        overflow: visible !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-logo {
+        font-size: 14px;
+    }
+
+    .header-logo svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .header-nav {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .header-nav a {
+        margin: 5px 0;
+        padding: 8px 15px;
+    }
+
+    .main-headline {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    .bing-logo-main {
+        width: 40px;
+        height: 40px;
+    }
+
+    .suggestion-card {
+        padding: 10px;
+    }
+
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 5px;
+    }
+
+    .card-header svg, .card-icon {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .card-category {
+        font-size: 13px;
+    }
+
+    .card-prompt {
+        font-size: 12px;
+    }
+
+    .preview-disclaimer {
+        font-size: 11px;
+    }
+
+    .modal-content {
+        padding: 15px;
+    }
+
+    .modal-content h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .modal-input-group label {
+        font-size: 13px;
+    }
+
+    .modal-input {
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    .modal-buttons {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .modal-save-button,
+    .modal-close-button {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .chat-messages {
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+
+    .message {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .loading-dots {
+        padding: 8px 12px;
+    }
+
+    .loading-dots span {
+        width: 6px;
+        height: 6px;
+    }
+
+    .style-selector-label {
+        font-size: 14px;
+    }
+
+    .style-button {
+        font-size: 13px;
+    }
+
+    .style-button .style-label {
+        font-size: 10px;
+    }
+
+    .sidebar.open {
+        padding: 15px;
+    }
+
+    .sidebar h2 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .chat-history-item {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .chat-placeholder {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .input-area-container {
+        padding: 8px 10px;
+    }
+}
